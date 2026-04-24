@@ -29,7 +29,7 @@ Lab2_API-Firebase/
 │
 ├── backend/
 │   ├── main.py             # API FastAPI
-│   └── serviceAccountKey.json  # Firebase Admin SDK (KHÔNG push lên GitHub)
+│   └── serviceAccountKey.json  # Firebase Admin SDK 
 │
 ├── requirements.txt
 └── README.md
