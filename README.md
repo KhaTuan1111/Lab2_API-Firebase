@@ -205,7 +205,11 @@ http://127.0.0.1:8000
 cd frontend
 streamlit run app.py
 ```
+Frontend chạy tại:
 
+```
+http://localhost:8501/
+```
 ---
 
 ##  Cấu hình Frontend
