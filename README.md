@@ -139,7 +139,7 @@ cd Lab2_API-Firebase
 
 ```
 cd backend
-python -m venv venv
+uvicorn main:app --reload
 ```
 
 #### Windows:
@@ -253,7 +253,7 @@ Document:
 
 ---
 
-## 📌 Lưu ý quan trọng
+##  Lưu ý quan trọng
 
  Không upload:
 
@@ -277,14 +277,4 @@ Document:
 
 ---
 
-## Hoàn thành yêu cầu
 
-* ✔ Tách frontend & backend
-* ✔ Sử dụng FastAPI
-* ✔ Firebase Authentication
-* ✔ Firestore Database
-* ✔ CRUD dữ liệu
-* ✔ API đầy đủ
-* ✔ Có thể demo hoàn chỉnh
-
----
