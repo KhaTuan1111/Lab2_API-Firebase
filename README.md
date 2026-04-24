@@ -1,6 +1,6 @@
-# 📝 Note App - API & Firebase
+# Note App - API & Firebase
 
-## 📌 Giới thiệu
+##  Giới thiệu
 
 Đây là một ứng dụng **Note App** đơn giản được xây dựng theo kiến trúc full-stack, nhằm minh họa cách hoạt động của:
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🏗️ Kiến trúc hệ thống
+##  Kiến trúc hệ thống
 
 ```
 Lab2_API-Firebase/
@@ -37,7 +37,7 @@ Lab2_API-Firebase/
 
 ---
 
-## ⚙️ Công nghệ sử dụng
+##  Công nghệ sử dụng
 
 ### Frontend:
 
@@ -58,28 +58,28 @@ Lab2_API-Firebase/
 
 ---
 
-## 🔐 Chức năng chính
+##  Chức năng chính
 
-### 👤 Authentication
+###  Authentication
 
 * Đăng nhập bằng Firebase
 * Lấy thông tin user hiện tại (`/auth/me`)
 
-### 📝 Note Management (CRUD)
+###  Note Management (CRUD)
 
-* ➕ Tạo note
-* 📄 Xem danh sách note
-* ✏️ Cập nhật note
-* ❌ Xóa note
+*  Tạo note
+*  Xem danh sách note
+*  Cập nhật note
+*  Xóa note
 
-📌 Tất cả dữ liệu được:
+Tất cả dữ liệu được:
 
 * Gắn với `user_id`
 * Lưu trên Firestore
 
 ---
 
-## 🔄 Luồng hoạt động
+##  Luồng hoạt động
 
 1. Người dùng đăng nhập trên frontend (Firebase)
 2. Nhận ID Token
@@ -91,9 +91,9 @@ Lab2_API-Firebase/
 
 ---
 
-## 🧪 API Endpoints
+## API Endpoints
 
-### 🔹 System
+###  System
 
 * `GET /`
 * `GET /health`
@@ -101,14 +101,14 @@ Lab2_API-Firebase/
 
 ---
 
-### 🔹 Authentication
+###  Authentication
 
 * `GET /auth/me`
   → Lấy thông tin user từ token
 
 ---
 
-### 🔹 Notes
+###  Notes
 
 * `POST /notes`
   → Tạo note
@@ -124,9 +124,9 @@ Lab2_API-Firebase/
 
 ---
 
-## 🛠️ Hướng dẫn cài đặt
+##  Hướng dẫn cài đặt
 
-### 1️⃣ Clone project
+###  Clone project
 
 ```
 git clone <your-repo-link>
@@ -135,7 +135,7 @@ cd Lab2_API-Firebase
 
 ---
 
-### 2️⃣ Cài đặt Backend
+###  Cài đặt Backend
 
 ```
 cd backend
@@ -157,12 +157,12 @@ source venv/bin/activate
 Cài thư viện:
 
 ```
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 
 ---
 
-### 3️⃣ Cấu hình Firebase (QUAN TRỌNG)
+###  Cấu hình Firebase (QUAN TRỌNG)
 
 1. Vào Firebase Console
 2. Tạo project
@@ -181,11 +181,11 @@ pip install -r ../requirements.txt
 backend/serviceAccountKey.json
 ```
 
-⚠️ Không commit file này lên GitHub
+ Không commit file này lên GitHub
 
 ---
 
-### 4️⃣ Chạy Backend
+###  Chạy Backend
 
 ```
 uvicorn main:app --reload
@@ -199,7 +199,7 @@ http://127.0.0.1:8000
 
 ---
 
-### 5️⃣ Chạy Frontend
+###  Chạy Frontend
 
 ```
 cd frontend
@@ -208,7 +208,7 @@ streamlit run app.py
 
 ---
 
-## 🔑 Cấu hình Frontend
+##  Cấu hình Frontend
 
 Trong file:
 
@@ -225,7 +225,7 @@ FASTAPI_BACKEND_URL = "http://127.0.0.1:8000"
 
 ---
 
-## 📂 Cấu trúc dữ liệu (Firestore)
+##  Cấu trúc dữ liệu (Firestore)
 
 Collection:
 
@@ -247,21 +247,21 @@ Document:
 
 ---
 
-## 🎥 Video Demo
+##  Video Demo
 
-👉 Link video: [Dán link tại đây]
+ Link video: [Dán link tại đây]
 
 ---
 
 ## 📌 Lưu ý quan trọng
 
-❌ Không upload:
+ Không upload:
 
 * serviceAccountKey.json
 * API key
 * token
 
-✔ Đảm bảo:
+Đảm bảo:
 
 * Backend chạy được
 * Frontend kết nối được backend
@@ -269,15 +269,15 @@ Document:
 
 ---
 
-## 👨‍💻 Tác giả
+##  Tác giả
 
-* Tên: [Tên của bạn]
-* MSSV: [MSSV]
+* Tên: Bùi Đặng Khả Tuân   
+* MSSV: 24120236  
 * Trường: Đại học Khoa học Tự nhiên - ĐHQG-HCM
 
 ---
 
-## ✅ Hoàn thành yêu cầu
+## Hoàn thành yêu cầu
 
 * ✔ Tách frontend & backend
 * ✔ Sử dụng FastAPI
