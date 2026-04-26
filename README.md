@@ -253,7 +253,7 @@ Document:
 
 ##  Video Demo
 
- Link video: [Dán link tại đây]
+ Link video: https://drive.google.com/drive/u/0/folders/1TGHgDU15yByadarf5cLeksAPP6sLCZ_a
 
 ---
 
